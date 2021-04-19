@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #333333;
+}
+
+.container {
+  width: 80%;
+  margin: 1in auto;
+  background: #ffd895;
+}
+
+.container h4 {
+  text-align: center;
+  padding: 10px;
+  background: #faa000;
+  color: #ffffff;
+}
+
+.container .font,
+.container .align {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  background: #fff;
+}
+.container .font p,
+.container .align p {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+.container .font button,
+.container .align button {
+  width: 30px;
+  padding: 2px;
+}
+
+.container .artboard {
+  margin: 10px 5px 10px 5px;
+  padding: 2em;
+  height: 500px;
+  background: #fff;
+  outline: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.alignLeft {
+  text-align: left i !important;
+}
+
+.alignCenter {
+  text-align: center !important;
+}
+
+.alignRight {
+  text-align: right !important;
+}
+
+.alignJustify {
+  text-align: justify !important;
+}
+
+.b,
+.i,
+.u,
+.l,
+.c,
+.r,
+.j {
+  background: #faa000;
+}
